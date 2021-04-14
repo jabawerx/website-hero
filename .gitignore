@@ -8,8 +8,8 @@
 # testing
 /coverage
 
-# production
-/build
+# production needed for pipeline
+#/build
 
 # misc
 .DS_Store
