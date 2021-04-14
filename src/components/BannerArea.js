@@ -32,13 +32,15 @@ const Section = styled.section`
 `;
 
 const BannerImg = styled.div`
-  background-image: url(images/960splash_camo.jpg);
+  background-image: url(images/960splash_soldier.jpg);
   position:absolute;
+  background-position:center center;
   top:0;
   left:0;
   width:100%;
   height:100%;
   background-size:cover;
+  background-repeat:no-repeat;
   z-index:-1;
   &:after{
     content:'';
