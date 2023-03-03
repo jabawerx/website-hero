@@ -1,6 +1,6 @@
 import React from 'react';
 import { CompanyHeader, NavBar, BannerArea, AboutUs, 
-          Hire, Software, BlogTease, Contact, Footer } from '../components';
+          Services, Software, NewsTease, Contact, Footer } from '../components';
 
 
 
@@ -12,9 +12,9 @@ export const HomePage = () => {
       </CompanyHeader>
       <BannerArea />
       <AboutUs />
-      <Hire />
+      <Services />
       <Software />
-      <BlogTease />
+      <NewsTease />
       <Contact />
       <Footer />
     </>

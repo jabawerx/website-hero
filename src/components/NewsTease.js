@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const BlogSection = styled.section`
+const NewsSection = styled.section`
   font-family: 'Raleway', sans-serif;
   background:#ddd;
   display: flex;
@@ -53,14 +53,14 @@ const SubTitle = styled.h4`
 `;
 
 
-const BlogDouble = styled.ul`
+const NewsDouble = styled.ul`
   width:100%;
   display: flex;
   flex-wrap:wrap;
   justify-content:center;
 `;
 
-const BlogItem = styled.li`
+const NewsItem = styled.li`
   padding:0 30px;
   flex-basis:50%;
   text-align:center;
@@ -75,7 +75,7 @@ const BlogItem = styled.li`
   }
 `;
 const Image1 = styled.div`
-  background-image:url(images/960javascript.jpg);
+  background-image:url(images/jabawerx_openai.jpg);
   padding:20px;
   height:290px;
   background-clip:content-box;
@@ -83,7 +83,7 @@ const Image1 = styled.div`
   background-position:center;
 `;
 const Image2 = styled.div`
-  background-image:url(images/960oculus.jpg);
+  background-image:url(images/jabawerx_javascript.jpg);
   padding:20px;
   height:290px;
   background-clip:content-box;
@@ -92,22 +92,22 @@ const Image2 = styled.div`
 `;
 
 
-export const BlogTease = () => {
+export const NewsTease = () => {
   return(
-    <BlogSection id="blog-tease">
+    <NewsSection id="news-tease">
       <Title>Latest</Title>
-      <BlogDouble>
-        <BlogItem>
+      <NewsDouble>
+        <NewsItem>
         <Image1></Image1>
-          <SubTitle>Javascript</SubTitle>
-          <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quia nisi facere excepturi! Voluptatibus eos veritatis quo ratione voluptates at?</P>
-        </BlogItem>
-        <BlogItem>
+          <SubTitle>March 2023</SubTitle>
+          <P>Developers can now integrate ChatGPT and Whisper models into their apps and products through OpenAI's APIs.</P>
+        </NewsItem>
+        <NewsItem>
         <Image2></Image2>
-          <SubTitle>npm run build</SubTitle>
-          <P>Deploying a React app nearly killed me today.  DO NOT LEAVE A BLANK basename:  &lt;BrowserRouter basename=""&gt;&lt;/BrowserRouter&gt;</P>
-        </BlogItem>
-      </BlogDouble>
-    </BlogSection>
+        <SubTitle>June 2022</SubTitle>
+          <P>The thirteenth edition of the ECMAScript Language Specification, ECMAScript 2022 Language, has been approved.</P>
+        </NewsItem>
+      </NewsDouble>
+    </NewsSection>
   )
 }

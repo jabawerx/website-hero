@@ -32,7 +32,7 @@ const Section = styled.section`
 `;
 
 const BannerImg = styled.div`
-  background-image: url(images/960splash_soldier.jpg);
+  background-image: url(images/jabawerx_splash_soldier.jpg);
   position:absolute;
   background-position:center center;
   top:0;

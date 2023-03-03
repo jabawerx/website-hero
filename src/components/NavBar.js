@@ -28,9 +28,9 @@ export const NavBar = () => {
   return(
     <Nav>
       <LI><HashLink smooth to="/#about">About</HashLink></LI>
-      <LI><HashLink smooth to="/#hire">Hire</HashLink></LI>
+      <LI><HashLink smooth to="/#services">Services</HashLink></LI>
       <LI><HashLink smooth to="/#software">Software</HashLink></LI>
-      <LI><HashLink smooth to="/#blog-tease">Blog</HashLink></LI>
+      <LI><HashLink smooth to="/#news-tease">News</HashLink></LI>
     </Nav>
   )
 }

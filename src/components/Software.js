@@ -58,7 +58,7 @@ const Left = styled(ListItem)`
 `;
 const Right = styled(ListItem)`
   flex-basis:40%;
-  background-image:url(images/960wireframe.jpg);
+  background-image:url(images/jabawerx_wireframe.jpg);
   @media(max-width:1000px){
     &{
       flex-basis:100%;
@@ -68,16 +68,17 @@ const Right = styled(ListItem)`
   }
 `;
 
+/*
 const SubTitle = styled.h3`
   margin-bottom:2%;
 `;
+*/
 
 const P = styled.p`
   max-width:800px;
-  text-align:center;
   margin-bottom:35px;
   line-height:1.5;
-  text-align:left;
+  text-align:justify;
   padding-left:0;
 `;
 
@@ -98,8 +99,8 @@ export const Software = () => {
       <Title>Software</Title>
       <Content>
         <Left>
-          <SubTitle>Latest Project</SubTitle>
-          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut corrupti odio commodi incidunt voluptatum dolores ut excepturi numquam similique dolorum.</P>
+          <P>The field of software development has undergone significant changes and improvements over the past few years. The emergence of agile methodologies has revolutionized the way software development projects are executed, with a focus on rapid iteration, continuous delivery and integration.</P>
+          <P>The adoption of DevOps practices has resulted in better collaboration and communication, leading to improved software quality and faster time-to-market. The increasing use of cloud computing and containerization has also made it easier for developers to build, deploy, and scale their applications.</P>
         </Left>
         <Right></Right>
       </Content>

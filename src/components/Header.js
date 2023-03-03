@@ -38,7 +38,7 @@ const Highlight = styled.span`
 `;
 
 const Icon = styled.div`
-  background-image: url(images/960icon_jabawerx.png);
+  background-image: url(images/jabawerx_icon.png);
   height:1rem;
   width:1rem;
   background-color:red;

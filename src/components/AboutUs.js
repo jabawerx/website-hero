@@ -58,7 +58,7 @@ const LI = styled.li`
 
 const Left = styled(LI)`
   flex-basis:40%;
-  background-image:url(images/960version_control.jpg);
+  background-image:url(images/jabawerx_version_control.jpg);
   @media(max-width:1000px){
     &{
       flex-basis:100%;
@@ -99,8 +99,8 @@ export const AboutUs = () => {
       <Content>
         <Left></Left>
         <Right>
-          <H2>About our Company</H2>
-          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laborum dolore magni eaque, ratione fugit repudiandae? Dolor ea quo nobis.</P>
+          <P>We are a veteran-owned small business specializing in agile software engineering. We offer innovative solutions to help organizations tackle the challenges of tomorrow.  Our team is made up of skilled and experienced professionals who are dedicated to providing high-quality software solutions to our clients. With our expertise in agile methodologies, we are able to quickly adapt to changing requirements and deliver projects on time and within budget. As a small business, we pride ourselves on providing personalized attention to our clients and ensuring their satisfaction with our work. We are passionate about technology and committed to delivering reliable software and expert agile training solutions that exceed expectations.
+          </P>
           <AboutBtn to="#">Learn more</AboutBtn>
         </Right>
       </Content>
