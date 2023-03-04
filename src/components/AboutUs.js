@@ -28,10 +28,9 @@ const AboutArea = styled.section`
 
 const P = styled.p`
   max-width:800px;
-  text-align:center;
   margin-bottom:35px;
   line-height:1.5;
-  text-align:left;
+  text-align:justify;
   padding-left:0;
 `;
 
@@ -50,7 +49,7 @@ const Content = styled.ul`
 
 const LI = styled.li`
   padding:20px;
-  height:290px;
+  /*height:290px;*/
   background-clip:content-box;
   background-size:cover;
   background-position:center;
@@ -99,7 +98,7 @@ export const AboutUs = () => {
       <Content>
         <Left></Left>
         <Right>
-          <P>We are a veteran-owned small business specializing in agile software engineering. We offer innovative solutions to help organizations tackle the challenges of tomorrow.  Our team is made up of skilled and experienced professionals who are dedicated to providing high-quality software solutions to our clients. With our expertise in agile methodologies, we are able to quickly adapt to changing requirements and deliver projects on time and within budget. As a small business, we pride ourselves on providing personalized attention to our clients and ensuring their satisfaction with our work. We are passionate about technology and committed to delivering reliable software and expert agile training solutions that exceed expectations.
+          <P>We are a veteran-owned, small business specializing in agile software engineering. We offer innovative solutions to help organizations tackle the challenges of tomorrow.  Our team is made up of skilled and experienced professionals who are dedicated to providing high-quality software solutions to our clients. With our expertise in agile methodologies, we are able to quickly adapt to changing requirements and deliver projects on time and within budget. As a small business, we pride ourselves on providing personalized attention to our clients and ensuring their satisfaction with our work. We are passionate about technology and committed to delivering reliable software and expert agile training solutions that exceed expectations.
           </P>
           <AboutBtn to="#">Learn more</AboutBtn>
         </Right>

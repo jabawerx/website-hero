@@ -40,7 +40,7 @@ const Content = styled.ul`
 
 const ListItem = styled.li`
   padding:20px;
-  height:290px;
+  /*height:290px;*/
   background-clip:content-box;
   background-size:cover;
   background-position:center;
